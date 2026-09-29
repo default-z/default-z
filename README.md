@@ -14,6 +14,15 @@ I build production web applications with ASP.NET Core, Entity Framework Core and
 - Automated test suites — unit, integration (against a real SQL Server instance, not just in-memory), and architecture tests
 - CI/CD pipelines in GitHub Actions that build, test and deploy to Windows/IIS hosting
 
+#### Selected projects
+
+Full source for both is private (production/business systems) — each repo below is an engineering case study: architecture, business rules, testing strategy and engineering decisions, without the implementation code.
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [**Zawed — Showcase**](https://github.com/default-z/Zawed-Showcase) | Livestock auction & marketplace platform | Clean Architecture across 5+ projects · real-time bidding via SignalR · OTP + KYC + step-up auth · background auction-sweep jobs · 2,000+ automated tests |
+| [**Khedma — Showcase**](https://github.com/default-z/Khedma-Showcase) | Bilingual CMS-driven business platform | Dashboard and public site share one database (no drift by design) · version-counter cache invalidation · permission-based RBAC · privacy-first analytics |
+
 #### Tech stack
 
 **Backend**
@@ -30,7 +39,7 @@ Serilog · Swagger / OpenAPI (Swashbuckle) · MailKit · HtmlSanitizer
 
 #### Currently
 
-Building production ASP.NET Core systems. Public showcase repositories are in progress as current projects reach a stage I can open-source or extract a clean sample from.
+Building production ASP.NET Core systems professionally. More public showcases go up as current work reaches a stage I can document without exposing the underlying business.
 
 #### Contact
 
